@@ -1,4 +1,5 @@
-[
+
+  var data=[
   {"name": "Albania", "code": "AL"},
   {"name": "Åland Islands", "code": "AX"},
   {"name": "Algeria", "code": "DZ"},
@@ -248,3 +249,4 @@
   {"name": "Zambia", "code": "ZM"},
   {"name": "Zimbabwe", "code": "ZW"}
 ]
+export default data
