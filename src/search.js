@@ -16,15 +16,16 @@ function Search(){
         if(inputValue===""){
             return changeData([]) ;
         }
+        function aa(data){
+            return data.name.startsWith(inputValue);
+         }
        
         let f=data.filter(aa)
         changeData(currData=>f) 
         
-    },[inputValue,aa])
+    },[inputValue])
     
-    function aa(data){
-        return data.name.startsWith(inputValue);
-     }
+    
 
     function change(e){
         console.log(currData)
